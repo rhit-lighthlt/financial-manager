@@ -1,7 +1,11 @@
-import './App.css';
+import './App.scss';
+import { Nav } from "./components"
 
 function App() {
-  return (<></>
+  return (
+    <>
+      <Nav />
+    </>
   );
 }
 
